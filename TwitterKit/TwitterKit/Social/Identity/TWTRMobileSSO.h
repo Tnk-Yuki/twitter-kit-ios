@@ -74,6 +74,9 @@ typedef void (^TWTRMobileSSOCompletion)(BOOL twitterAppInstalled);
  */
 - (BOOL)verifyOauthTokenResponsefromURL:(NSURL *)url;
 
+- (BOOL)isValidViaSSOWithURL : (NSURL *)url ;
+- (BOOL)isValidViaWebWithURL : (NSURL *)url ;
+
 @end
 
 NS_ASSUME_NONNULL_END
